@@ -200,3 +200,37 @@
 #     if number == 8:
 #         continue
 #     print("loop ended")
+
+
+# Function -------------------------------
+
+# def average(num1, num2):
+#     return(num1 + num2)/2
+
+# print(average(2, 8))
+
+# Strings
+
+# string = "this is me"
+# print(string[0:2])
+# print(string[-2:])
+# print(string[:-2])
+# print(string.capitalize())
+# print(string.find("this"))
+# print(string.find("is"))
+# print(string.replace("is", "are"))
+
+
+# File IO
+
+# file1 = open("Himanshu.txt", "wb")
+# print(file1.mode)
+# print(file1.name)
+# file1.write(bytes("Write this to my file", "UTF-8"))
+# file1.close()
+
+# file io - reading the content of a file
+
+file1 = open('Himanshu.txt', 'r+')
+text_to_read = file1.read()
+print(text_to_read)
